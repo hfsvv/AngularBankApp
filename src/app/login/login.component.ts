@@ -34,10 +34,10 @@ export class LoginComponent implements OnInit {
 
   }
   login(){
-    alert("login clicked")
-    var accno=this.accno
-    var pswd=this.pswd
-    let dataset=this.AccountDetails
+    
+    var accno=this.accno;
+    var pswd=this.pswd;
+    let dataset=this.AccountDetails;
     if (accno in dataset){
       if (pswd==dataset[accno]["pswrd"]){
         alert("login successful")
