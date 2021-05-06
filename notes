@@ -15,5 +15,9 @@ Angular Features
             3.1.2.3 Event Binding using template referencing #variablename  #accno
     
     3.2 Two Way Binding
-        3.2.1 ngModel
+        3.2.1 ngModel - Form module [(ngModel)]='binding-source'
+
+4.Dependency Injection
+
+5.Routing
             
