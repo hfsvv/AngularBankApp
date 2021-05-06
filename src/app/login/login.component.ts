@@ -33,10 +33,10 @@ export class LoginComponent implements OnInit {
     
 
   }
-  login(){
+  login(a:any,b:any){
     
-    var accno=this.accno;
-    var pswd=this.pswd;
+    var accno=a.value;
+    var pswd=b.value;
     let dataset=this.AccountDetails;
     if (accno in dataset){
       if (pswd==dataset[accno]["pswrd"]){

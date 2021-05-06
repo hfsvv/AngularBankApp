@@ -1,0 +1,19 @@
+Angular Features
+
+1.Component (ng g c cmpname)
+2.Module
+3.Data Binding
+    3.1 One way Binding
+        3.1.1 Component to view
+            3.1.1.1 Strring interpolation/interpolation {{template expresson}} eg {{aim}}
+            3.1.1.2 property Binding  [Binding-target]="Binding-source"   eg inside inputtag [value]="account"
+        3.1.2 view to Component
+            3.1.2.1 Event Binding  (event)="source function call"  eg: (click)=login()
+            3.1.2.2 Event Binding using argument as $event  (event)="source function call($event1)" eg
+                                                    (change)="changePswd($event)"
+                                        
+            3.1.2.3 Event Binding using template referencing #variablename  #accno
+    
+    3.2 Two Way Binding
+        3.2.1 ngModel
+            
