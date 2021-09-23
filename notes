@@ -20,4 +20,25 @@ Angular Features
 4.Dependency Injection
 
 5.Routing
-            
+
+6.Services
+
+7.reactive Form
+
+    7.1 Form-group
+    7.2 Form-array
+    7.3 Form control
+
+8.Angular directives
+    8.1 component directives
+    8.2 structural directives
+        8.2.1 *ngIf
+        8.2.2 *ngFor
+        8.2.3 *ngSwitch
+    8.3 attribute directives
+        8.3.1 inbuilt ngClass (appHighlight)
+
+9 Angular Pipes 
+    expression | popeoperator [:pipeArgument]
+
+10 Angular Animation
